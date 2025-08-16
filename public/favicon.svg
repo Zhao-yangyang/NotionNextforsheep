@@ -1,9 +1,27 @@
-<svg width="117" height="110" viewBox="0 0 117 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M102.282 87.5128C84.385 102.427 66.8743 109.829 49.7503 109.719C32.6263 109.608 19.4242 102.151 10.1441 87.3471C0.863999 72.5431 -1.78746 53.2095 2.18973 29.3464C6.16692 5.48324 20.3633 -3.68639 44.7788 1.83748C69.1943 7.36136 89.3565 19.2929 105.265 37.6322C121.174 55.9715 120.18 72.5983 102.282 87.5128Z" fill="url(#paint0_linear)"/>
-<defs>
-<linearGradient id="paint0_linear" x1="0.399994" y1="0.279999" x2="0.399994" y2="109.72" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF5F6D"/>
-<stop offset="1" stop-color="#FFC371"/>
-</linearGradient>
-</defs>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- 简洁的深色背景 -->
+  <rect width="32" height="32" rx="8" fill="#1a1a1a"/>
+  
+  <!-- 极简羊头轮廓 -->
+  <path d="M 16 8 
+           C 20 8, 22 10, 22 14
+           C 22 16, 21 17, 20 17
+           C 19 19, 17 20, 16 20
+           C 15 20, 13 19, 12 17
+           C 11 17, 10 16, 10 14
+           C 10 10, 12 8, 16 8 Z" 
+           fill="#ffffff" stroke="none"/>
+  
+  <!-- 简约的眼睛 - 只用两个小点 -->
+  <circle cx="14" cy="13" r="1.2" fill="#1a1a1a"/>
+  <circle cx="18" cy="13" r="1.2" fill="#1a1a1a"/>
+  
+  <!-- 极简的羊角 - 细线条 -->
+  <line x1="13" y1="9" x2="12" y2="6" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="19" y1="9" x2="20" y2="6" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- 字母S装饰 (Sheep的首字母) -->
+  <text x="16" y="28" font-family="system-ui, -apple-system, sans-serif" 
+        font-size="8" font-weight="600" fill="#ffffff" 
+        text-anchor="middle" opacity="0.8">S</text>
 </svg>
